@@ -6,6 +6,7 @@
   //Importo las imagenes
   import image1 from './images/familiaunhijo.png';
   import image2 from './images/familiamasunhijo.png';
+  import image3 from './images/regla.png';
 
   //Genero un array para la primera imagen con el nombre, el ancho y alto
   const images = [
@@ -126,7 +127,9 @@
 
 
       <div style="margin-left: 20px; margin-right: 20px">
-        <img src="./images/regla.png" width="100%" alt="regla"/> 
+         <img src={image3}
+         alt=''
+         >
       </div>
 
 
