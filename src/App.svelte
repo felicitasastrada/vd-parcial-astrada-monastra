@@ -126,7 +126,7 @@
 
 
       <div style="margin-left: 20px; margin-right: 20px">
-        <img src="./src/images/regla.png" width="100%" alt="regla"/> 
+        <img src="./images/regla.png" width="100%" alt="regla"/> 
       </div>
 
 
