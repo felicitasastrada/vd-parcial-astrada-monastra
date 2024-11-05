@@ -101,7 +101,7 @@
   </div>
   
   <div class="originalgraph" style="height: 500px">
-    <div style="width: 500px; justify-content:center; display:flex">
+    <div style="width: 500px; height:500px; justify-content:center; display:flex; align-items:flex-end">
       <img 
         src={currentImage.src} 
         alt={currentImage.alt} 
@@ -114,7 +114,7 @@
       alt='' />
     </div>
 
-    <div style="width: 500px; justify-content:center; display:flex">
+    <div style="width: 500px; height:500px; justify-content:center; display:flex; align-items:flex-end">
       <img 
         src={currentImage2.src} 
         alt={currentImage2.alt} 
