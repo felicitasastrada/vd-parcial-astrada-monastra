@@ -88,7 +88,7 @@
     <h3 class="subtitulo">Encuestas a empleados de una empresa en Hong Kong revelan el impacto de la nueva política fiscal sobre el segundo hijo, provocando la reducción del tamaño en las familias.</h3>
   </div>
   
-  <div class="años" style="display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 10px;">
+  <div class="años" style="display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 30px;">
     <p style={textStyle}>{currentText}</p> <!-- Muestra el año con el estilo condicional -->
   </div>
 
@@ -100,7 +100,7 @@
     {/if}
   </div>
   
-  <div class="originalgraph" style="height: 530px">
+  <div class="originalgraph" style="height: 500px">
     <div style="width: 500px; justify-content:center; display:flex">
       <img 
         src={currentImage.src} 
@@ -147,7 +147,7 @@
   </div>
   </div>
 
-  <div class="footer" style="text-align: center; padding: 10px;">
+  <div class="footer" style="text-align: center; padding: 5px;">
     <p>Desarrollado por <br>Astrada Pujato Felicitas & Martina Monastra</p>
     <div class="socials" style="display: flex; justify-content: center; gap: 60px; align-items: center;">
       <!-- Links de Felicitas -->
@@ -234,6 +234,7 @@
     padding: 20px;}
 
   .footer{
+    font-size: 18px;
     text-align: center;
     background-color: #9A0000;
     color: #FBFAF7;
