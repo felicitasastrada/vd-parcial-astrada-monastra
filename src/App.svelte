@@ -19,11 +19,6 @@
     .domain([0, d3.max([...data1, ...data2])])
     .range([105, 500]);
 
-  let scalePosition = d3
-    .scaleLinear()
-    .domain([0, data1.length - 1])
-    .range([50, 450]); 
-
   // Índices actuales para iterar sobre los datos
   let currentIndex = 0;
   let currentIndex2 = 0;
@@ -88,7 +83,7 @@
     <h3 class="subtitulo">Encuestas a empleados de una empresa en Hong Kong revelan el impacto de la nueva política<br> fiscal sobre el segundo hijo, provocando la reducción del tamaño en las familias.</h3>
   </div>
   
-  <div class="años" style="height: 105px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 30px;">
+  <div class="años" style="height: 80px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 30px;">
     <p style={textStyle}>{currentText}</p> <!-- Muestra el año con el estilo condicional -->
   </div>
 
