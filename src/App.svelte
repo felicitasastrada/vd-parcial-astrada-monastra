@@ -84,8 +84,8 @@
 
 <main class="main">
   <div class="titulos" style="background-color: #9A0000; height: 170px"> 
-    <h1 class="titulo">Natalidad en China</h1>
-    <h3 class="subtitulo">Como las políticas a través de los años afectaron la cantidad <br> de hijos por familia en la población China</h3>
+    <h1 class="titulo">Cambio generacional en la natalidad de China</h1>
+    <h3 class="subtitulo">Encuestas a empleados de una empresa en Hong Kong revelan el impacto de la nueva política fiscal sobre el segundo hijo, provocando la reducción del tamaño en las familias.</h3>
   </div>
   
   <div class="años" style="display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 10px;">
@@ -94,8 +94,8 @@
 
   <div class="anotacion" style="font-size:18px">
     {#if showAnnotation}
-      <div style="position:absolute; margin-left: auto; text-align: left; color: #9A0000;">
-        <p>*A partir de 2017, se observa un cambio significativo <br>en las tendencias gracias a la nueva ley*</p>
+      <div style="position:absolute; margin-left: auto; text-align:justify; color: #9A0000;">
+        <p>*2017: Introducción de la política de <br> impuestos sobre el segundo hijo.*</p>
       </div>
     {/if}
   </div>
@@ -128,7 +128,7 @@
     <script src="https://public.flourish.studio/resources/embed.js">
     </script>
     <div class="graphstitle" style="text-align: center">
-      <h5><br>Tendencias en la cantidad de hijos:<br> Cambio hacia familias con un solo hijo</h5>
+      <h5><br>Tendencias de Natalidad en China: el impacto de la ley <br>de impuestos sobre el segundo hijo.</h5>
     </div>
     <noscript>
       <img src="https://public.flourish.studio/visualisation/20145026/thumbnail" width="100%" alt="chart visualization" />
@@ -139,7 +139,7 @@
       <script src="https://public.flourish.studio/resources/embed.js">
       </script>
       <div class="graphstitle" style="text-align: center">
-        <h5><br>Desbalance creciente entre familias <br> con uno y más hijos en China</h5>
+        <h5><br>El antes y el después de la ley: como avanzó la brecha <br>numérica desde el impuesto.</h5>
       </div>
       <noscript>
         <img src="https://public.flourish.studio/visualisation/19628907/thumbnail" width="100%" alt="chart visualization" />
