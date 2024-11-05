@@ -33,8 +33,11 @@
 
   // Variable reactiva para el estilo del texto
   $: textStyle = currentText >= 2017 
-    ? 'font-size: 40px; color: #9A0000;' // Estilo especial para años 2017 en adelante
+    ? 'font-size: 45px; color: #9A0000;' // Estilo especial para años 2017 en adelante
     : 'font-size: 40px; color: #000000;'; // Estilo normal para los años anteriores a 2017
+
+    // Variable para mostrar la anotación
+  $: showAnnotation = currentText >= 2017 && currentText <= 2023;
 
   // Variables reactivas para las imágenes
   $: currentImage = {
@@ -85,10 +88,18 @@
     <h3 class="subtitulo">Como las políticas a través de los años afectaron la cantidad <br> de hijos por familia en la población China</h3>
   </div>
   
-  <div class="años" style="display:flex; justify-content:center">
+  <div class="años" style="display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 10px;">
     <p style={textStyle}>{currentText}</p> <!-- Muestra el año con el estilo condicional -->
   </div>
 
+  <div class="anotacion" style="font-size:18px">
+    {#if showAnnotation}
+      <div style="position:absolute; margin-left: auto; text-align: left; color: #9A0000;">
+        <p>*A partir de 2017, se observa un cambio significativo <br>en las tendencias gracias a la nueva ley*</p>
+      </div>
+    {/if}
+  </div>
+  
   <div class="originalgraph" style="height: 530px">
     <div style="width: 500px; justify-content:center; display:flex">
       <img 
