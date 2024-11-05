@@ -88,7 +88,7 @@
     <h3 class="subtitulo">Encuestas a empleados de una empresa en Hong Kong revelan el impacto de la nueva política<br> fiscal sobre el segundo hijo, provocando la reducción del tamaño en las familias.</h3>
   </div>
   
-  <div class="años" style="display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 30px;">
+  <div class="años" style="height: 105px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 30px;">
     <p style={textStyle}>{currentText}</p> <!-- Muestra el año con el estilo condicional -->
   </div>
 
