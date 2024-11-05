@@ -112,7 +112,6 @@
     </div>
   </div>
 
-<<<<<<< HEAD
   <div class="flourishgraphs" style="height: 750px">
   <div class="flourish-embed flourish-chart" data-src="visualisation/20145026" style="width:48%; margin-right:auto">
     <script src="https://public.flourish.studio/resources/embed.js">
@@ -124,21 +123,6 @@
       <img src="https://public.flourish.studio/visualisation/20145026/thumbnail" width="100%" alt="chart visualization" />
     </noscript>
   </div>
-=======
-
-    <div class="flourishgraphs" style="height: 750px;">
-
-      <div class="flourish-embed flourish-chart" data-src="visualisation/20145026" style="width:48%; margin-right:auto">
-        <script src="https://public.flourish.studio/resources/embed.js">
-        </script>
-        <div class="graphstitle" style="text-align: center">
-          <h5><br>Tendencias en la cantidad de hijos:<br> Cambio hacia familias con un solo hijo</h5>
-        </div>
-        <noscript>
-          <img src="https://public.flourish.studio/visualisation/20145026/thumbnail" width="100%" alt="chart visualization" />
-        </noscript>
-      </div>
->>>>>>> 284d787179b2ef950636f8235e510b46fa1a596f
 
     <div class="flourish-embed flourish-chart" data-src="visualisation/19628907" style="width: 48%; margin-left:auto">
       <script src="https://public.flourish.studio/resources/embed.js">
@@ -149,11 +133,6 @@
       <noscript>
         <img src="https://public.flourish.studio/visualisation/19628907/thumbnail" width="100%" alt="chart visualization" />
       </noscript>
-<<<<<<< HEAD
-=======
-  </div>
-
->>>>>>> 284d787179b2ef950636f8235e510b46fa1a596f
   </div>
   </div>
 
