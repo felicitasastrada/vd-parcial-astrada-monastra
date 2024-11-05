@@ -146,29 +146,27 @@
 
     <div class="flourishgraphs" style="height: 750px;">
 
-
-    <div class="flourish-embed flourish-chart" data-src="visualisation/19363743" style="width:48%; margin-right:auto">
-      <script src="https://public.flourish.studio/resources/embed.js">
-      </script>
-      <div class="graphstitle" style="text-align: center">
-        <h5><br>Tendencias en la cantidad de hijos:<br> Cambio hacia familias con un solo hijo</h5>
+      <div class="flourish-embed flourish-chart" data-src="visualisation/20145026" style="width:48%; margin-right:auto">
+        <script src="https://public.flourish.studio/resources/embed.js">
+        </script>
+        <div class="graphstitle" style="text-align: center">
+          <h5><br>Tendencias en la cantidad de hijos:<br> Cambio hacia familias con un solo hijo</h5>
+        </div>
+        <noscript>
+          <img src="https://public.flourish.studio/visualisation/20145026/thumbnail" width="100%" alt="chart visualization" />
+        </noscript>
       </div>
-      <noscript>
-        <img src="https://public.flourish.studio/visualisation/19363743/thumbnail" width="100%" alt="chart visualization" />
-      </noscript>
-    </div>
 
-
-    <div class="flourish-embed flourish-chart" data-src="visualisation/19434547" style="width: 48%; margin-left:auto">
+    <div class="flourish-embed flourish-chart" data-src="visualisation/19628907" style="width: 48%; margin-left:auto">
       <script src="https://public.flourish.studio/resources/embed.js">
       </script>
       <div class="graphstitle" style="text-align: center">
         <h5><br>Desbalance creciente entre familias <br> con uno y más hijos en China</h5>
       </div>
       <noscript>
-        <img src="https://public.flourish.studio/visualisation/19434547/thumbnail" width="100%" alt="chart visualization" />
+        <img src="https://public.flourish.studio/visualisation/19628907/thumbnail" width="100%" alt="chart visualization" />
       </noscript>
-    </div>
+  </div>
 
   </div>
 
