@@ -147,28 +147,31 @@
   </div>
   </div>
 
-  <div class="footer" style="height: 200px; text-align: center; padding: 20px;">
-    <p>Desarrolado por Astrada Pujato Felicitas</p>
-    <div>
-      <p>
-        <a href="https://github.com/felicitasastrada" target="_blank" style="margin-right: 15px;">
-          <img src="./images/Github.png" alt="GitHub" style="width: 30px; height: 30px;">
+  <div class="footer" style="text-align: center; padding: 10px;">
+    <p>Desarrollado por <br>Astrada Pujato Felicitas & Martina Monastra</p>
+    <div class="socials" style="display: flex; justify-content: center; gap: 60px; align-items: center;">
+      <!-- Links de Felicitas -->
+      <div>
+        <a href="https://github.com/felicitasastrada" target="_blank" style="margin-right: 10px;">
+          <img src="./src/images/github.png" alt="GitHub" style="width: 35px; height: 35px;">
         </a>
         <a href="https://www.linkedin.com/in/felicitas-astrada/" target="_blank">
-          <img src="./images/Linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+          <img src="./src/images/linkedin.png" alt="LinkedIn" style="width: 35px; height: 35px;">
         </a>
-      </p>
-      <p>Desarrollado por Martina Monsatra</p>
-      <p>
-        <a href="https://github.com/martinagithub" target="_blank" style="margin-right: 15px;">
-          <img src="./images/Github.png" alt="GitHub" style="width: 30px; height: 30px;">
+      </div>
+  
+      <!-- Links de Martina -->
+      <div>
+        <a href="https://github.com/martinagithub" target="_blank" style="margin-right: 10px;">
+          <img src="./src/images/github.png" alt="GitHub" style="width: 35px; height: 35px;">
         </a>
         <a href="https://www.linkedin.com/in/martinalinkedin" target="_blank">
-          <img src="./images/Linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+          <img src="./src/images/linkedin.png" alt="LinkedIn" style="width: 35px; height: 35px;">
         </a>
-      </p>
+      </div>
     </div>
   </div>
+  
   
   
 
