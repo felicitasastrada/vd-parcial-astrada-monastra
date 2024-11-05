@@ -147,9 +147,30 @@
   </div>
   </div>
 
-  <div class= "footer" style="height: 50px;"> 
-      <p>Astrada Pujato Felicitas & Martina Monastra</p>
+  <div class="footer" style="height: 200px; text-align: center; padding: 20px;">
+    <p>Desarrolado por Astrada Pujato Felicitas</p>
+    <div>
+      <p>
+        <a href="https://github.com/felicitasastrada" target="_blank" style="margin-right: 15px;">
+          <img src="./images/Github.png" alt="GitHub" style="width: 30px; height: 30px;">
+        </a>
+        <a href="https://www.linkedin.com/in/felicitas-astrada/" target="_blank">
+          <img src="./images/Linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+        </a>
+      </p>
+      <p>Desarrollado por Martina Monsatra</p>
+      <p>
+        <a href="https://github.com/martinagithub" target="_blank" style="margin-right: 15px;">
+          <img src="./images/Github.png" alt="GitHub" style="width: 30px; height: 30px;">
+        </a>
+        <a href="https://www.linkedin.com/in/martinalinkedin" target="_blank">
+          <img src="./images/Linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+        </a>
+      </p>
+    </div>
   </div>
+  
+  
 
 </main>
 
