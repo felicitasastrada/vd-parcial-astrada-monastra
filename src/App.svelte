@@ -28,8 +28,8 @@
 
   // Variable reactiva para el estilo del texto
   $: textStyle = currentText >= 2017 
-    ? 'font-size: 45px; color: #9A0000;' // Estilo especial para años 2017 en adelante
-    : 'font-size: 40px; color: #000000;'; // Estilo normal para los años anteriores a 2017
+    ? 'font-size: 50px; color: #9A0000; font-family:"Hiromisake"' // Estilo especial para años 2017 en adelante
+    : 'font-size: 45px; color: #000000; font-family:"Hiromisake"'; // Estilo normal para los años anteriores a 2017
 
     // Variable para mostrar la anotación
   $: showAnnotation = currentText >= 2017 && currentText <= 2023;
@@ -79,18 +79,18 @@
 
 <main class="main">
   <div class="titulos" style="background-color: #9A0000; height: 170px"> 
-    <h1 class="titulo">Cambio generacional en la natalidad de China</h1>
+    <h1 class="titulo">CAMBIO GENERACIONAL EN LA NATALIDAD DE CHINA</h1>
     <h3 class="subtitulo">Encuestas a empleados de una empresa en Hong Kong revelan el impacto de la nueva política<br> fiscal sobre el segundo hijo, provocando la reducción del tamaño en las familias.</h3>
   </div>
   
-  <div class="años" style="height: 80px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 30px;">
+  <div class="años" style="height: 80px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 30px; font-family:'Hiromisake'">
     <p style={textStyle}>{currentText}</p> <!-- Muestra el año con el estilo condicional -->
   </div>
 
-  <div class="anotacion" style="font-size:18px">
+  <div class="anotacion">
     {#if showAnnotation}
       <div style="position:absolute; margin-left: auto; text-align:justify; color: #9A0000;">
-        <p>*2017: Introducción de la política de <br> impuestos sobre el segundo hijo.*</p>
+        <p>[2017: introducción de la política de <br> impuestos sobre el segundo hijo]</p>
       </div>
     {/if}
   </div>
@@ -119,22 +119,22 @@
   </div>
 
   <div class="flourishgraphs" style="height: 750px">
-  <div class="flourish-embed flourish-chart" data-src="visualisation/20145026" style="width:48%; margin-right:auto">
-    <script src="https://public.flourish.studio/resources/embed.js">
-    </script>
-    <div class="graphstitle" style="text-align: center">
-      <h5><br>Tendencias de Natalidad en China: el impacto de la ley <br>de impuestos sobre el segundo hijo.</h5>
+    <div class="flourish-embed flourish-chart" data-src="visualisation/20145026" style="width:48%; margin-right:auto">
+      <script src="https://public.flourish.studio/resources/embed.js">
+      </script>
+      <div class="graphstitle" style="text-align: center">
+        <p><br>Tendencias de Natalidad en China: el impacto de la ley <br>de impuestos sobre el segundo hijo.</p>
+      </div>
+      <noscript>
+        <img src="https://public.flourish.studio/visualisation/20145026/thumbnail" width="100%" alt="chart visualization" />
+      </noscript>
     </div>
-    <noscript>
-      <img src="https://public.flourish.studio/visualisation/20145026/thumbnail" width="100%" alt="chart visualization" />
-    </noscript>
-  </div>
 
     <div class="flourish-embed flourish-chart" data-src="visualisation/19628907" style="width: 48%; margin-left:auto">
       <script src="https://public.flourish.studio/resources/embed.js">
       </script>
       <div class="graphstitle" style="text-align: center">
-        <h5><br>El antes y el después de la ley: como avanzó la brecha <br>numérica desde el impuesto.</h5>
+        <p><br>El antes y el después de la ley: como avanzó la brecha <br>numérica desde el impuesto.</p>
       </div>
       <noscript>
         <img src="https://public.flourish.studio/visualisation/19628907/thumbnail" width="100%" alt="chart visualization" />
@@ -145,7 +145,7 @@
   <div class="footer" style="text-align: center; padding: 5px;">
     <p>Desarrollado por <br>Astrada Pujato Felicitas & Martina Monastra</p>
     <div class="socials" style="display: flex; justify-content: center; gap: 60px; align-items: center;">
-      <!-- Links de Felicitas -->
+      
       <div>
         <a href="https://github.com/felicitasastrada" target="_blank" style="margin-right: 10px;">
           <img src="./src/images/github.png" alt="GitHub" style="width: 35px; height: 35px;">
@@ -154,13 +154,12 @@
           <img src="./src/images/linkedin.png" alt="LinkedIn" style="width: 35px; height: 35px;">
         </a>
       </div>
-  
-      <!-- Links de Martina -->
+
       <div>
-        <a href="https://github.com/martinagithub" target="_blank" style="margin-right: 10px;">
+        <a href="https://github.com/Martinamonastra20" target="_blank" style="margin-right: 10px;">
           <img src="./src/images/github.png" alt="GitHub" style="width: 35px; height: 35px;">
         </a>
-        <a href="https://www.linkedin.com/in/martinalinkedin" target="_blank">
+        <a href="https://www.linkedin.com/in/martina-monastra-aab85a286/" target="_blank">
           <img src="./src/images/linkedin.png" alt="LinkedIn" style="width: 35px; height: 35px;">
         </a>
       </div>
@@ -173,20 +172,18 @@
 <style>
 
   @font-face {
-    font-family: 'JapanWave';
-    src: url('./src/fonts/Japan wave.ttf') format('truetype');
+    font-family: 'Hiromisake';
+    src: url('./src/fonts/HIROMISAKE.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
-    font-family: 'Katana';
-    src: url('./src/fonts/Katana.ttf') format('truetype');
+    font-family: 'Sequel Sans Light Disp';
+    src: url('./src/fonts/Sequel Sans Light Disp.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
-
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;1,100;1,400;1,500;1,600&display=swap');
 
   .main{
   max-width: 100%;
@@ -195,15 +192,24 @@
   .titulos{
     text-align: center;
     color: #FBFAF7;
-    padding: 20px;
-    font-family: 'Hachimaki';
-    font-size: 100px;}
+    padding: 10px;}
+
+.titulo{
+    font-family: 'Hiromisake';
+    font-size: 50px;}
   
   .subtitulo{
+    font-family: Sequel Sans Light Disp;
     text-align: center;}
 
   .años{
     margin-bottom: 10px;
+  }
+
+  .anotacion{
+    font-family: 'Sequel Sans Light Disp';
+    font-weight: 600;
+    font-size: 20px;
   }
     
   .originalgraph{
@@ -216,10 +222,7 @@
   p{
     transition: font-size 0.5s, color 0.5s;
     padding: 10px;
-    max-width: 100%;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;}
+    max-width: 100%;}
 
   img{
     max-width: 100%;
@@ -228,12 +231,12 @@
     object-fit: cover;}
 
   .graphstitle{
+    font-family: 'Sequel Sans Light Disp';
+    font-weight: 600;
+    font-size: 26px;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 200;
-    font-style: normal;}
+    padding: 10px;}
 
   .flourishgraphs{
     display: flex ;
@@ -244,8 +247,6 @@
     text-align: center;
     background-color: #9A0000;
     color: #FBFAF7;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 250;
-    font-style: normal; }
+    font-family: 'Sequel Sans Light Disp';}
 
 </style>
