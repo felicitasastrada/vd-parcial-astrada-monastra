@@ -85,7 +85,7 @@
 <main class="main">
   <div class="titulos" style="background-color: #9A0000; height: 170px"> 
     <h1 class="titulo">Cambio generacional en la natalidad de China</h1>
-    <h3 class="subtitulo">Encuestas a empleados de una empresa en Hong Kong revelan el impacto de la nueva política fiscal sobre el segundo hijo, provocando la reducción del tamaño en las familias.</h3>
+    <h3 class="subtitulo">Encuestas a empleados de una empresa en Hong Kong revelan el impacto de la nueva política<br> fiscal sobre el segundo hijo, provocando la reducción del tamaño en las familias.</h3>
   </div>
   
   <div class="años" style="display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 30px;">
@@ -172,12 +172,24 @@
     </div>
   </div>
   
-  
-  
 
 </main>
 
 <style>
+
+  @font-face {
+    font-family: 'JapanWave';
+    src: url('./src/fonts/Japan wave.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Katana';
+    src: url('./src/fonts/Katana.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
   @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;1,100;1,400;1,500;1,600&display=swap');
 
@@ -189,9 +201,8 @@
     text-align: center;
     color: #FBFAF7;
     padding: 20px;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;}
+    font-family: 'Hachimaki';
+    font-size: 100px;}
   
   .subtitulo{
     text-align: center;}
