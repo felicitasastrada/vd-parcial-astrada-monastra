@@ -151,19 +151,19 @@
       
       <div>
         <a href="https://github.com/felicitasastrada" target="_blank" style="margin-right: 10px;">
-          <img src="./images/github.png" alt="GitHub" style="width: 35px; height: 35px;">
+          <img src="./src/images/github.png" alt="GitHub" style="width: 35px; height: 35px;">
         </a>
         <a href="https://www.linkedin.com/in/felicitas-astrada/" target="_blank">
-          <img src="./images/linkedin.png" alt="LinkedIn" style="width: 35px; height: 35px;">
+          <img src="./src/images/linkedin.png" alt="LinkedIn" style="width: 35px; height: 35px;">
         </a>
       </div>
 
       <div>
         <a href="https://github.com/Martinamonastra20" target="_blank" style="margin-right: 10px;">
-          <img src="./images/github.png" alt="GitHub" style="width: 35px; height: 35px;">
+          <img src="./src/images/github.png" alt="GitHub" style="width: 35px; height: 35px;">
         </a>
         <a href="https://www.linkedin.com/in/martina-monastra-aab85a286/" target="_blank">
-          <img src="./images/linkedin.png" alt="LinkedIn" style="width: 35px; height: 35px;">
+          <img src="./src/images/linkedin.png" alt="LinkedIn" style="width: 35px; height: 35px;">
         </a>
       </div>
     </div>
