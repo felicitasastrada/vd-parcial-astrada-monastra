@@ -176,14 +176,14 @@
 
   @font-face {
     font-family: 'Hiromisake';
-    src: url('fonts/HIROMISAKE.ttf') format('truetype');
+    src: url('/fonts/HIROMISAKE.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Sequel Sans Light Disp';
-    src: url('fonts/Sequel Sans Light Disp.ttf') format('truetype');
+    src: url('/fonts/Sequel Sans Light Disp.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
