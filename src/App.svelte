@@ -8,7 +8,7 @@
   import image2 from './images/familiaunhijo.png';
   import image3 from './images/regla.png';
 
-  // Datos para cada año
+  // Datos 
   let data1 = [23, 35, 45, 56, 50, 43, 38, 32, 28, 25];
   let data2 = [21, 33, 42, 54, 63, 71, 77, 84, 92, 98];
   let años = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023];
@@ -19,11 +19,9 @@
     .domain([0, d3.max([...data1, ...data2])])
     .range([105, 500]);
 
-  // Índices actuales para iterar sobre los datos
   let currentIndex = 0;
   let currentIndex2 = 0;
 
-  // Variable reactiva para los años
   $: currentText = años[currentIndex];
 
   // Variable reactiva para el estilo del texto
@@ -96,12 +94,10 @@
   </div>
   
   <div class="originalgraph" style=" position: relative; overflow: hidden;">
-    <!-- Imagen de la regla como fondo -->
     <div style="position: absolute; top: 0px; left: 145px; width: auto; height: auto; z-index: 1;">
       <img src={image3} alt="Regla" style="width: 100%; height: 530px; opacity: 0.7;">
     </div>
   
-    <!-- Contenedor de la primera imagen -->
     <div style="width: 500px; height: 500px; justify-content: center; display: flex; align-items: flex-end; position: relative; z-index: 2; left:-40px; top: 10px">
       <img 
         src={currentImage.src} 
@@ -110,7 +106,6 @@
       />
     </div>
   
-    <!-- Contenedor de la segunda imagen -->
     <div style="width: 500px; height: 500px; justify-content: center; display: flex; align-items: flex-end; position: relative; z-index: 2; left: 40px; top:10px">
       <img 
         src={currentImage2.src} 
