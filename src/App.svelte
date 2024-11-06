@@ -89,7 +89,7 @@
 
   <div class="anotacion">
     {#if showAnnotation}
-      <div style="position:absolute; margin-left: auto; text-align:justify; color: #9A0000; transform: translateY(-50px)">
+      <div style="position:absolute; margin-left: auto; text-align:justify; color: #9A0000; transform: translateY(-55px)">
         <p>[2017: introducción de la política de <br> impuestos sobre el segundo hijo]</p>
       </div>
     {/if}
