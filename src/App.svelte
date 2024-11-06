@@ -83,40 +83,43 @@
     <h3 class="subtitulo">Encuestas a empleados de una empresa en Hong Kong revelan el impacto de la nueva política<br> fiscal sobre el segundo hijo, provocando la reducción del tamaño en las familias.</h3>
   </div>
   
-  <div class="años" style="height: 80px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 30px; font-family:'Hiromisake'">
+  <div class="años" style="height: 80px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 15px; font-family:'Hiromisake'">
     <p style={textStyle}>{currentText}</p> <!-- Muestra el año con el estilo condicional -->
   </div>
 
   <div class="anotacion">
     {#if showAnnotation}
-      <div style="position:absolute; margin-left: auto; text-align:justify; color: #9A0000;">
+      <div style="position:absolute; margin-left: auto; text-align:justify; color: #9A0000; transform: translateY(-50px)">
         <p>[2017: introducción de la política de <br> impuestos sobre el segundo hijo]</p>
       </div>
     {/if}
   </div>
   
-  <div class="originalgraph" style="height: 500px">
-    <div style="width: 500px; height:500px; justify-content:center; display:flex; align-items:flex-end">
+  <div class="originalgraph" style=" position: relative; overflow: hidden;">
+    <!-- Imagen de la regla como fondo -->
+    <div style="position: absolute; top: 0px; left: 145px; width: auto; height: auto; z-index: 1;">
+      <img src={image3} alt="Regla" style="width: 100%; height: 530px; opacity: 0.7;">
+    </div>
+  
+    <!-- Contenedor de la primera imagen -->
+    <div style="width: 500px; height: 500px; justify-content: center; display: flex; align-items: flex-end; position: relative; z-index: 2; left:-40px; top: 10px">
       <img 
         src={currentImage.src} 
         alt={currentImage.alt} 
-        style={`overflow:hidden; width: ${currentImage.width}px; height: ${currentImage.height}px;`}
+        style={`overflow: hidden; width: ${currentImage.width}px; height: ${currentImage.height}px;`}
       />
     </div>
-
-    <div style="margin-left: 20px; margin-right: 20px">
-      <img src={image3} 
-      alt='' />
-    </div>
-
-    <div style="width: 500px; height:500px; justify-content:center; display:flex; align-items:flex-end">
+  
+    <!-- Contenedor de la segunda imagen -->
+    <div style="width: 500px; height: 500px; justify-content: center; display: flex; align-items: flex-end; position: relative; z-index: 2; left: 40px; top:10px">
       <img 
         src={currentImage2.src} 
         alt={currentImage2.alt} 
-        style={`overflow:hidden; width: ${currentImage2.width}px; height: ${currentImage2.height}px;`}
+        style={`overflow: hidden; width: ${currentImage2.width}px; height: ${currentImage2.height}px;`}
       />
     </div>
   </div>
+  
 
   <div class="flourishgraphs" style="height: 750px">
     <div class="flourish-embed flourish-chart" data-src="visualisation/20145026" style="width:48%; margin-right:auto">
